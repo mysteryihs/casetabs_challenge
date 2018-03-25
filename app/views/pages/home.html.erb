@@ -1,0 +1,11 @@
+<% @tweets.each do |tweet| %>
+	<p>
+		<% tweet.full_text.split(" ").each do |word| %>
+			<% if word[0] == '@' %>
+				<%= link_to "#{word}", "/#{word[1..-1]}", :title => "My Title" %>
+			<% else %>
+				<%= word %>
+			<% end %>
+		<% end %>
+	</p>
+<% end %>
