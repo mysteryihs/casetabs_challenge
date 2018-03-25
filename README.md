@@ -2,6 +2,8 @@
 
 Hi Casetabs team,
 
+Solutions for the coding challenges are in the root directory labeled casetabs.rb
+
 For challenges #1 and #2, I sure hope you guys have a sense of humor.
 
 As for challenge #1, I'm terrible at REGEX, no other way to put it.
